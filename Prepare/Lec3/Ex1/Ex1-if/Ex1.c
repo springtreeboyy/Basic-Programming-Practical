@@ -2,9 +2,9 @@
 #include<math.h>
 int main(){
     int a[1000], n, max, min;
-    printf("How many numbers you want to enter ? ");
+    printf("How many numbers you want to enter? ");
     scanf("%d", &n);
-    printf("Enter numbers: ");
+    printf("Enter numbers: \n");
     for (int i=0; i < n; i++)
     {
       scanf("%d", &a[i]);
