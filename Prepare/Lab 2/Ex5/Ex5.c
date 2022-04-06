@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
     int a, b;
-    printf("Enter a and b: ");
+    printf("Enter a and b: \n");
     scanf("%d%d", &a, &b);
-    int n = a;
-    a = b;
-    b = n;
+    a = a + b;
+    b = a - b;
+    a = a - b;
     printf("a = %d, b = %d", a, b);
     return 0;
 }
